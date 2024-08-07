@@ -1,0 +1,17 @@
+#main{
+  height: 90%;
+  width: 90%;
+  background-image: url(assets/bg-pattern-bottom.svg);
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px){
+  #main{
+    height: 90%;
+    width: 75%;
+  }
+}

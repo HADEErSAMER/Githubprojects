@@ -1,0 +1,78 @@
+#profilediv{
+height: 60%;
+width: 25%;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background-image: url(../../assets/bg-pattern-card.svg);
+background-repeat: no-repeat;
+background-size: contain;
+
+}
+#mainimg{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 5px solid white;
+   
+}
+#topdiv{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    
+}
+#mideldiv{
+    display: flex;
+    gap: 10px;
+}
+.bold{
+    font-size: 18px;
+    font-weight:bold ;
+    color:hsl(229, 23%, 23%) ;
+}
+#numberlabel{
+    color:hsl(227, 10%, 46%) ;
+    font-weight: bold;
+    font-size: 16px;
+}
+.graylabels{
+    color:hsl(0, 0%, 59%) ;
+    font-size: 14px;
+}
+hr{
+    width: 99%;
+    border: none;
+    border: 1px solid rgb(241, 239, 239);
+   
+   
+   
+}
+.fotterdiv{
+   
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#mainfotter{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+   
+   
+    justify-content: flex-end;
+    align-items: center;
+}
+@media only screen and (max-width: 600px){
+    #profilediv{
+      width: 80%;
+    }
+  }
